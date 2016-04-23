@@ -16,5 +16,11 @@ url: "http://lunagao.github.io" # the base hostname & protocol for your site
 weibo_username: maomishen
 github_username:  LunaGao
 
+# Pagination
+gems: [jekyll-paginate, rouge]
+paginate: 3
+paginate_path: "/blog/page:num/"
+paginate_path: "/porject/page:num/"
+
 # Build settings
 markdown: kramdown
