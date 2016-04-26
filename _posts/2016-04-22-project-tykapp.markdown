@@ -12,9 +12,27 @@ platforms: [iOS, Android]
 description: >
   一款约球软件。包含iOS、Android两个平台。
 ---
+***
+
+#### 使用技术
+> {% for technology in page.technologies %} __{{technology}}__ __,__{% endfor %}
+
+#### 平台
+> {% for platform in page.platforms %} __{{platform}}__ __,__{% endfor %}
+
+#### 项目时间
+> __{{page.startDate}}__ - __{{page.endDate}}__
+
+#### 角色
+> __{{page.role}}__
+
+#### 项目类型
+> {% if page.project-type == "company" %}__公司项目__{% else %}__个人项目__{% endif %}
+
+***
 
 ### 简介
-
+{{page.description}}
 [体育课App][tykapp-web]是一款健身运动类手机移动应用。主要针对于篮球，用于约球、比赛以及赛事数据记录等，并加入自媒体活跃应用内容。
 
 ### 担任角色

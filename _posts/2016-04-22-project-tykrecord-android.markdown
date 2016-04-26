@@ -13,22 +13,40 @@ description: >
   针对体育课App创建的平板篮球技术统计软件。用来代替传统的篮球比赛数据统计方式，使用平板记录，
   并可以实时分析数据结果，与体育课App数据共享。是体育课App的附属软件之一。
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+***
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+#### 使用技术
+> {% for technology in page.technologies %} __{{technology}}__ __,__{% endfor %}
 
-Jekyll also offers powerful support for code snippets:
+#### 平台
+> {% for platform in page.platforms %} __{{platform}}__ __,__ {% endfor %}
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+#### 项目时间
+> __{{page.startDate}}__ - __{{page.endDate}}__
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+#### 角色
+> __{{page.role}}__
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+#### 项目类型
+> {% if page.project-type == "company" %}__公司项目__{% else %}__个人项目__{% endif %}
+
+***
+
+### 简介
+{{page.description}}
+针对体育课App中的数据统计开发的一套记录软件。主要针对Android平板使用。
+
+### 担任角色
+在其中主要担任项目组长及主力开发人员···需求调研以及开发基本全部自己完成。部分简单界面由他人完成。
+
+### 技术难点
+主要在读取方面：
+
+- 数据要求实时保存。
+- 数据要求即时统计。
+
+总结起来就是对于增改查方面的需求非常大。
+所以在设计时对此方面有很多考虑因素，尝试过sqlite，后续使用了greenDao来提升速度。
+但由于平板性能（公司没钱买好的），加入了多线程处理业务逻辑等。
+在最大情况满足性能的同时保证代码的可维护性。
+后续准备将greenDao替换为realm进一步提升性能。
