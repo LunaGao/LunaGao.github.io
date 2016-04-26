@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  微课网站
+title:  公司内部行政人员管理系统
 project-type: company
-date:   2014-09-30 22:08:32 +0800
-startDate: 2014年08月20日
-endDate: 2014年09月30日
-role: 项目组长
+date:   2014-09-02 22:08:32 +0800
+startDate: 2014年04月20日
+endDate: 2014年09月09日
+role: 程序员
 categories: project
-technologies: [Node.js, MongoDB]
-platforms: [Web]
+technologies: [.net, Object-C]
+platforms: [Web, iOS]
 description: >
-  针对珠海的微课分享平台。针对互联网时代的混合学习、移动学习、碎片化学习的新型学习方式而产生。
-  当时开发时预估需要有手机平台，但后续因为个人原因离职，没有继续跟进此项目。
+  公司内部使用的人员行政管理系统。主要用在Web端录入和管理数据，平板（iPad）展示数据。
 ---
 ***
 
@@ -36,4 +35,4 @@ description: >
 {{page.description}}
 
 ### 担任角色
-整个项目中在担任开发组长，主要负责需求调研、开发任务分配和进度管理。
+主要做iOS端页面展示的内容。

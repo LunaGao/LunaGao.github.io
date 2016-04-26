@@ -45,5 +45,5 @@ description: >
 [App Store][download]
 
 
-[download]:[https://itunes.apple.com/us/app/baby-growing-record/id1100223438?l=zh&ls=1&mt=8]
-[bugly-web]:[https://bugly.qq.com/]
+[download]:https://itunes.apple.com/us/app/baby-growing-record/id1100223438?l=zh&ls=1&mt=8
+[bugly-web]:https://bugly.qq.com/

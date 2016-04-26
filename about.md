@@ -1,15 +1,20 @@
 ---
 layout: page
-title: about(关于)
+title: about(关于我)
 permalink: /about/
 ---
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-不知道写什么好，暂时保留
+从小就喜欢弄点小玩意儿玩，后来自己接点电路自己玩。后来接触电脑后，开始疯狂的迷恋起来，对于很多东西，都想自己去尝试写写来看。
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+09年进入大学，选择了软件工程，正式开启了自己的程序世界。
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+从IDE是什么都不明白的小白一枚，成长到现如今的一个呆萌程序员···其中还真是坎坷啊···
+
+大学时参加一下ACM比赛，也就拿一个安慰奖···显得略悲催。后来在大一时不知天高地厚，组织同学一起搞了一个学生社团网站，结果居然不知道还要建立后台管理系统，现在想起来，我也是醉了···
+
+再之后跟随老师做项目，开始接触到了一些项目运作方面的内容，就更加一发不可收拾。暑假也不回家，跟着老师在学校里面做项目，疯狂的吸收者来自各个地方的知识。
+
+13年毕业，回到了实习的公司继续干活，每天忙忙碌碌，但也感觉快快乐乐的。在其中遇到的程序员都非常的友善。
+
+14年受同学的邀请，并且自己也想离开之前的公司，就跳槽出来，换了一座城市，开始了艰辛的创业之旅~

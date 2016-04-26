@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  微课网站
+title:  珠海职教平台
 project-type: company
-date:   2014-09-30 22:08:32 +0800
-startDate: 2014年08月20日
-endDate: 2014年09月30日
-role: 项目组长
+date:   2014-06-06 22:08:32 +0800
+startDate: 2014年04月01日
+endDate: 2014年09月02日
+role: 程序员
 categories: project
-technologies: [Node.js, MongoDB]
-platforms: [Web]
+technologies: [.net, Java, Object-C]
+platforms: [Web, Android, iOS]
 description: >
-  针对珠海的微课分享平台。针对互联网时代的混合学习、移动学习、碎片化学习的新型学习方式而产生。
-  当时开发时预估需要有手机平台，但后续因为个人原因离职，没有继续跟进此项目。
+  珠海职教平台。主要为珠海市职业教育学生毕业后寻找工作开发。其中涉及发布岗位，发布课程，用户登录等功能。
+  涉及有网页端和移动端两大块。
 ---
 ***
 
@@ -36,4 +36,4 @@ description: >
 {{page.description}}
 
 ### 担任角色
-整个项目中在担任开发组长，主要负责需求调研、开发任务分配和进度管理。
+在整个项目中负责移动端iOS开发以及服务器端的接口开发。

@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  语音提醒
+title:  随随便便
 project-type: personal
-date:   2016-03-01 12:07:00 +0800
-startDate: 2016年01月01日
-endDate: 2016年03月01日
+date:   2014-03-10 22:08:32 +0800
+startDate: 2014年03月10日
+endDate: 2014年04月30日
 role: 开发者
 categories: project
-technologies: [Swift, Realm]
-platforms: [iOS]
+technologies: [Java]
+platforms: [Android]
 description: >
-  通过语音记录事件，定时提醒。来自之前同学的需求，快速记录一条语音备忘录，并设置时间定时提醒。
+  主要用做随机生成硬币正反面、方位、列表选项、骰子。是选择困难症患者的福音~哈哈。
 ---
 ***
 
@@ -37,12 +37,16 @@ description: >
 ### 担任角色
 个人项目，独立完成。
 
+### 技术难点
+各种随机数的算法。
+
 ### 使用量
-从2016年03日01起，截止2016年04月25日，累计用户16人。
-数据来自苹果官方。
+从2014年04日30起，截止2016年04月25日，下载量1272次。
+数据来自[百度手机助手][baidu-web]。
 
 ### 下载地址
-[App Store][download]
+[百度手机助手][download]
 
 
-[download]:https://itunes.apple.com/us/app/yu-yin-ti-xing/id1089039083?l=zh&ls=1&mt=8
+[download]:http://shouji.baidu.com/game/4155776.html
+[baidu-web]:http://shouji.baidu.com/game/4155776.html

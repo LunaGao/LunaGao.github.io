@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <h1>开源项目</h1>
+
+  {% for post in site.posts %}
+    {% if post.categories[0] != "project" %}
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4></a>
+      </div>
+      <div class="panel-body">
+        {{ post.description }}
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item">平台
+          {% for platform in post.platforms %}
+          <span class="label label-success">{{ platform }}</span>
+          {% endfor %}
+        </li>
+        <li class="list-group-item">技术
+          {% for technology in post.technologies %}
+          <span class="label label-success">{{ technology }}</span>
+          {% endfor %}
+        </li>
+        <li class="list-group-item">时间
+          <span class="label label-success">{{ post.startDate }}</span>
+          -
+          <span class="label label-success">{{ post.endDate }}</span>
+        </li>
+      </ul>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>

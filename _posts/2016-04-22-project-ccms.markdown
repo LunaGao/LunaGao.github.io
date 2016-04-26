@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  微课网站
+title:  合同管理系统
 project-type: company
-date:   2014-09-30 22:08:32 +0800
-startDate: 2014年08月20日
-endDate: 2014年09月30日
-role: 项目组长
+date:   2014-07-10 22:08:32 +0800
+startDate: 2014年07月10日
+endDate: 2014年10月30日
+role: 开发组长
 categories: project
-technologies: [Node.js, MongoDB]
+technologies: [.net, SQLServer]
 platforms: [Web]
 description: >
-  针对珠海的微课分享平台。针对互联网时代的混合学习、移动学习、碎片化学习的新型学习方式而产生。
-  当时开发时预估需要有手机平台，但后续因为个人原因离职，没有继续跟进此项目。
+  主要客户为香港地铁（深圳），针对其所有签署的合同、财务的整个管理平台。
 ---
 ***
 

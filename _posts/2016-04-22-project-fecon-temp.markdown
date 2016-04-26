@@ -7,7 +7,7 @@ startDate: 2015年09月22日
 endDate: 2016年05月20日
 role: 项目组长
 categories: project
-technologies: [Object-C, Java, BlueTooth, LeanClound]
+technologies: [Object-C, Java, BlueTooth, LeanCloud]
 platforms: [Android, iOS]
 description: >
   飞康温度检测。与硬件相连接，获取硬件上的温度数据。

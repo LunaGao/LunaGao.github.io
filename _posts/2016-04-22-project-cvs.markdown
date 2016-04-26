@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  微课网站
+title:  客流收益清分验证系统
 project-type: company
 date:   2014-09-30 22:08:32 +0800
-startDate: 2014年08月20日
-endDate: 2014年09月30日
-role: 项目组长
+startDate: 2014年03月21日
+endDate: 2014年07月30日
+role: 开发组长
 categories: project
-technologies: [Node.js, MongoDB]
+technologies: [C#, SqlServer]
 platforms: [Web]
 description: >
-  针对珠海的微课分享平台。针对互联网时代的混合学习、移动学习、碎片化学习的新型学习方式而产生。
-  当时开发时预估需要有手机平台，但后续因为个人原因离职，没有继续跟进此项目。
+  主要客户为香港地铁（深圳），针对收益的清分核算进行模拟和校验。
 ---
 ***
 
@@ -37,3 +36,6 @@ description: >
 
 ### 担任角色
 整个项目中在担任开发组长，主要负责需求调研、开发任务分配和进度管理。
+
+### 技术难点
+最短路径算法，并针对最短路径算法进行修改，以适应需求。
