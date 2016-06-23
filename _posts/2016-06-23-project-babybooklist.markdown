@@ -4,7 +4,7 @@ title:  宝贝阅读
 project-type: personal
 date:   2016-06-22 12:07:00 +0800
 startDate: 2016年06月01日
-endDate: 2016年06月23日
+endDate: 2016年06月22日
 role: 开发者
 categories: project
 technologies: [Object-C, Realm]
