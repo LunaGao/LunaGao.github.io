@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Baby Book List - 宝贝阅读
+title:  宝贝阅读
 project-type: personal
 date:   2016-06-23 12:07:00 +0800
 startDate: 2016年06月01日
